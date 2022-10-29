@@ -1,0 +1,59 @@
+.gamecon{
+justify-content: center;
+margin-top: 50px;
+display:flex;
+}
+.contain{
+display: grid;
+grid-template-rows: repeat(3,10vw);
+grid-template-columns: repeat(3,10vw);
+font-family: verdana;
+position: relative;
+}
+.box{
+    border:2px solid black;
+    font-size: 8vw;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box:hover{
+    background: rgb(242,234,250);
+}
+.gameinfo{
+    padding:0px 34px;
+    font-family: verdana;
+}
+.bt{
+    border-top: 0;
+}
+.br{
+    border-right:0;
+}
+.bl{
+    border-left:0;
+}
+.bb{
+    border-bottom:0;
+}
+#reset{
+    margin:0 23px ;
+    padding:2px 18px;
+    background: #e5c7e5;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: verdana;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.info{
+    font-size: 20px;
+}
+.line{
+    background: black;
+    height:3px;
+    width:20vw;
+    position: absolute;
+    transition: width 1s ease-in-out;
+}
